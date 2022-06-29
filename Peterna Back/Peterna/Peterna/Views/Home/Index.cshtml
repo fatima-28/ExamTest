@@ -1,0 +1,294 @@
+﻿@using Peterna.ViewModels
+@model HomeViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- main start -->
+<main>
+    <!-- mainpage section start  -->
+    <section id="mainpage">
+        <div class="mainpage">
+            <div class="mainpage-inner">
+                <div class="mainpage-item">
+                    <p class="title-main">
+                        GET PAGE DONE
+                    </p>
+                    <p class="main-text">
+                        It take efforts
+                    </p>
+                    <p class="main-context">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
+                    <div class="download-main">
+                        <div class="download-box">
+                            <a href="www" class="download">DOWNLOAD THIS THEME NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mainpage section end  -->
+    <!-- our services section start  -->
+    <section id="our-services">
+        <div class="our-services">
+            <div class="our-services-inner">
+                <div class="our-services-item services-main">
+                    <div class="our-services-item-inner our-context">
+                        <div class="our-context-item our-title">
+                            <p>OUR SERVICES :</p>
+                        </div>
+                        <div class="all-wrappers">
+                            <div class="wrapper">
+                                <div class="our-context-item">
+                                    <p class="main-services-title">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="our-context-item">
+                                    <p class="main-services-context">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing
+                                        elit. <br>
+                                        Curabitur nec nisl odio. br <br> Mauris vehicula at nunc id posuere.
+                                        <br>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Curabitur nec
+                                        nisl
+                                        odio.
+                                        Mauris
+                                        vehicula at nunc id posuere.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="wrapper">
+                                <div class="our-context-item">
+                                    <p class="main-services-title">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="our-context-item">
+                                    <p class="main-services-context">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing
+                                        elit. <br>
+                                        Curabitur nec nisl odio. br <br> Mauris vehicula at nunc id posuere.
+                                        <br>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Curabitur nec
+                                        nisl
+                                        odio.
+                                        Mauris
+                                        vehicula at nunc id posuere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-services-item">
+                    <!-- card istems start  -->
+                    <div class="cards">
+
+                        @foreach (var service in Model.Services)
+                        {
+                            <div class="all-cards">
+                                <div class="cards-item">
+                                    <div class="icon"><i class="@service.Icon"></i></div>
+                                    <div class="card-context">
+                                        <p class="card-title">@service.Title</p>
+                                        <p class="card-description">
+                                           @service.Description
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <!-- card istems end  -->
+                </div>
+                <div class="our-services-item">
+                    <div class="services-last-part-main">
+                        <div class="services-last-part">
+                            <div class="wrapper">
+                                <div class="our-context-item">
+                                    <p class="main-services-title">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="our-context-item">
+                                    <p class="main-services-context">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing
+                                        elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl
+                                        odio.
+                                        Mauris vehicula at nunc id posuere.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl
+                                        odio.
+                                        Mauris vehicula at nunc id posuere.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl
+                                        odio.
+                                        Mauris vehicula at nunc id posuere.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl
+                                        odio.
+                                        Mauris vehicula at nunc id posuere.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl
+                                        odio.
+                                        Mauris vehicula at nunc id posuere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our services section end  -->
+    <!-- futured section start  -->
+    <section id="futured">
+        <div class="futured">
+            <div class="futured-inner">
+                <div class="futured-inner-item">
+                    <p class="futured-title">Featured In Wall Street</p>
+                    <p class="futured-description">and many other magzines..</p>
+                </div>
+                <div class="futured-inner-item">
+                    <p class="futured-title">300+</p>
+                    <p class="futured-description">Reports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- futured section end  -->
+    <!-- our plans section start  -->
+    <section id="our-plans">
+        <div class="main-our-plans">
+            <div class="our-plans">
+
+                <div class="our-plans-context">
+
+                    <div class="plans-context-item">
+                        <div class="our-plans-inner">
+                            <p class="our-plans-title">
+                                OUR PLANS :
+                            </p>
+
+                        </div>
+                        <p class="plans-title">Lorem ipsum dolor sit amet</p>
+                        <p class="plans-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
+                            vehicula at nunc id posuere.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
+                            vehicula at nunc id posuere.
+                        </p>
+                    </div>
+                    <div class="plans-context-item">
+                        <div class="our-plans-inner">
+                            <p class="our-plans-title hidden">
+                                OUR PLANS :
+                            </p>
+
+                        </div>
+                        <p class="plans-title">Lorem ipsum dolor sit amet</p>
+                        <p class="plans-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
+                            vehicula at nunc id posuere.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
+                            vehicula at nunc id posuere.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="our-plans-card-main">
+                <div class="our-plans-cards">
+                    <div class="plan-card-items">
+                        <div class="plan-name">
+                            <p>BASIC PLAN</p>
+                        </div>
+                        <div class="main-plan-list">
+                            <div class="plan-list">
+                                <ul>
+                                    <li>12 Accounts</li>
+                                    <li>52 Emails</li>
+                                    <li>50 GB Space</li>
+                                    <li>Free Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="plan-price">
+                            <p>$99 only</p>
+                        </div>
+                        <div class="read-more red">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                    <div class="plan-card-items">
+                        <div class="plan-name">
+                            <p>BASIC PLAN</p>
+                        </div>
+                        <div class="main-plan-list">
+                            <div class="plan-list">
+                                <ul>
+                                    <li>12 Accounts</li>
+                                    <li>52 Emails</li>
+                                    <li>50 GB Space</li>
+                                    <li>Free Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="plan-price">
+                            <p>$99 only</p>
+                        </div>
+                        <div class="read-more green">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                    <div class="plan-card-items">
+                        <div class="plan-name">
+                            <p>BASIC PLAN</p>
+                        </div>
+                        <div class="main-plan-list">
+                            <div class="plan-list">
+                                <ul>
+                                    <li>12 Accounts</li>
+                                    <li>52 Emails</li>
+                                    <li>50 GB Space</li>
+                                    <li>Free Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="plan-price">
+                            <p>$99 only</p>
+                        </div>
+                        <div class="read-more blue">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our plans section end  -->
+    <!-- project section start -->
+    <section id="project">
+        <div class="futured project-box">
+            <div class="futured-inner project">
+                <div class="futured-inner-item">
+                    <p class="futured-title">5000+</p>
+                    <p class="futured-description">Projects</p>
+                </div>
+                <div class="futured-inner-item">
+                    <p class="futured-title">5000+</p>
+                    <p class="futured-description">Projects</p>
+                </div>
+                <div class="futured-inner-item">
+                    <p class="futured-title">205+</p>
+                    <p class="futured-description">Countries</p>
+                </div>
+                <div class="futured-inner-item">
+                    <p class="futured-title">1300+</p>
+                    <p class="futured-description">Offices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project section end -->
+
+</main>
+
+<!--main end -->
