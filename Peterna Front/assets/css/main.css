@@ -290,3 +290,251 @@ body {
 .futured-inner .futured-inner-item .futured-description {
   font-size: 40px;
 }
+
+.our-plans-title {
+  color: #207f8b;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.our-plans-context {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.plans-context-item {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.plans-title {
+  font-size: 40px;
+}
+
+.plans-description {
+  font-size: 18px;
+}
+
+.our-plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.our-plans-title {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.our-plans-cards {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.plan-card-items {
+  width: 300px;
+  min-height: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.our-plans-card-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan-name {
+  background-color: black;
+}
+
+.plan-name p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.plan-card-items {
+  background-color: #f0f0f0;
+}
+
+.plan-price {
+  background-color: green;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.plan-price p {
+  text-align: center;
+  font-size: 65px;
+}
+
+.read-more {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.read-more p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.red {
+  background-color: #d10000;
+}
+
+.red:hover {
+  background-color: #dd1010;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.blue:hover {
+  background-color: #6767ec;
+}
+
+.green {
+  background-color: #0fff0f;
+}
+
+.green:hover {
+  background-color: #21bd21;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project-box {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.form-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-main p {
+  margin-bottom: 10px;
+}
+
+.form {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.inputs input {
+  height: 30px;
+  border: 0.1px solid gray;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.message {
+  border: 0.1px solid gray;
+  height: 50px;
+  width: 500px;
+}
+
+button {
+  margin-top: 10px;
+  display: block;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  background-color: #0076c5;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: #10c7ff;
+}
+
+.adress {
+  margin-left: 50px;
+}
+
+.adress p {
+  font-size: 20px;
+}
+
+.dark-box {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  min-height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 300px;
+}
+
+.dark-box p {
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+}
