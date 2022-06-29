@@ -149,3 +149,4 @@ C:\Users\User\Desktop\Peterna\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3
 C:\Users\User\Desktop\Peterna\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
 C:\Users\User\Desktop\Peterna\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\User\Desktop\Peterna\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\User\Desktop\Peterna\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Index.cshtml.g.cs
