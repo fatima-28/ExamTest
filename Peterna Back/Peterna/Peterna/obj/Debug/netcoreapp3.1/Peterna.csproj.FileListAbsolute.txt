@@ -304,3 +304,10 @@ C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3
 C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Peterna.genruntimeconfig.cache
 C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Create.cshtml.g.cs
 C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Update.cshtml.g.cs
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Account\Register.cshtml.g.cs
+C:\Users\mac\Desktop\ExamTest\Peterna Back\Peterna\Peterna\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Account\Login.cshtml.g.cs
